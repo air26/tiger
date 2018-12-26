@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery可关闭图片层叠轮播代码 - 站长素材</title>
+
+<link rel="stylesheet" href="{{ url_for("static", filename="css/Cooldog.css")}}">
+<link rel="stylesheet" href="{{ url_for("static", filename="css/iconfont.css")}}">
+
+</head>
+<body>
+
+<div class="Cooldog_container">
+    <div class="Cooldog_content">
+        <ul>
+            <li class="p1">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/7.png")}}"  alt="">
+                </a>
+            </li>
+            <li class="p2">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/1.png")}}" alt="">
+                </a>
+            </li>
+            <li class="p3">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/2.png")}}"  alt="">
+                </a>
+            </li>
+            <li class="p4">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/3.png")}}"  alt="">
+                </a>
+            </li>
+            <li class="p5">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/4.png")}}"  alt="">
+                </a>
+            </li>
+            <li class="p5">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/5.png")}}"  alt="">
+                </a>
+            </li>
+            <li class="p5">
+                <a href="#">
+                    <img src="{{ url_for("static", filename="images/6.png")}}"  alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <a href="javascript:;" class="btn_left">
+        <i class="iconfont icon-zuoyoujiantou"></i>
+    </a>
+    <a href="javascript:;" class="btn_right">
+        <i class="iconfont icon-zuoyoujiantou-copy-copy"></i>
+    </a>
+    <a href="javascript:;" class="btn_close">
+        <i class="iconfont icon-icon-test"></i>
+    </a>
+    <div class="buttons clearfix">
+        <a href="javascript:;" class="color"></a>
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="{{ url_for("static", filename="js/jquery.min.js")}}"></script>
+<script type="text/javascript" src="{{ url_for("static", filename="js/Cooldog.js")}}"></script>
+
+</div>
+</body>
+</html>
